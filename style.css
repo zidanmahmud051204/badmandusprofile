@@ -1,0 +1,165 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+/* NAVBAR PAGE */
+nav {
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(2px);
+}
+.title-navbar {
+  font-family: lobster;
+}
+nav a {
+  color: rgb(243, 116, 175);
+  font-family: mooli;
+}
+nav a:hover {
+  color: rgb(30, 248, 30);
+}
+/* HOME PAGE */
+#home {
+  background-image: url(img/HD-wallpaper-lines-stripes-neon-lights-purple-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 130px 55px 0px 55px;
+  height: 100vh;
+}
+#home img {
+  width: 300px;
+  border: 5px solid white;
+}
+.home-h1 {
+  font-size: 55px;
+  font-family: Dancing Script;
+}
+.home-h3 {
+  font-size: 35px;
+  font-family: Mooli;
+}
+.home-p {
+  font-size: 35px;
+  font-family: Sklikscreen;
+}
+@media (max-width: 400px) {
+  #home {
+    background-image: url(img/HD-wallpaper-lines-stripes-neon-lights-purple-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 75px 55px 0px 55px;
+    height: 100vh;
+  }
+  #home img {
+    width: 250px;
+    border: 5px solid white;
+  }
+  .home-h1 {
+    font-size: 30px;
+    font-family: Dancing Script;
+  }
+  .home-h3 {
+    font-size: 25px;
+    font-family: Mooli;
+  }
+  .home-p {
+    font-size: 17px;
+    font-family: Sklikscreen;
+  }
+}
+/* ABOUT PAGE */
+#about {
+  padding: 50px 55px 160px 30px;
+  background-color: rgb(47, 9, 65);
+  background-size: cover;
+}
+#about h3 {
+  font-family: agbalumo;
+  color: rgb(27, 235, 27);
+}
+#about p {
+  font-family: mooli;
+}
+@media (max-width: 400px) {
+  #about {
+    padding: 50px 55px 50px 30px;
+    background-color: rgb(47, 9, 65);
+    background-size: cover;
+  }
+}
+/* SRTURCTURE */
+#structure {
+  padding: 70px 55px 100px 30px;
+  background-color: rgb(47, 9, 65);
+}
+.title-structure {
+  font-family: agbalumo;
+  color: rgb(27, 235, 27);
+}
+.structure-img img {
+  border: 3px solid white;
+}
+.arrow {
+  transform: rotate(-90deg);
+}
+.name {
+  font-family: agbalumo;
+  color: aqua;
+}
+.jabatan {
+  font-family: mooli;
+}
+.arrow img {
+  animation: arrow 2s infinite;
+}
+@keyframes arrow {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(7px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+/* GALLERY */
+#gallery {
+  padding: 50px 55px 60px 30px;
+  background-color: rgb(47, 9, 65);
+}
+.title-gallery {
+  font-family: agbalumo;
+  color: rgb(27, 235, 27);
+}
+.title-item-gallery {
+  font-family: agbalumo;
+  color: rgb(243, 116, 175);
+}
+/* CONTACT */
+#contact {
+  background-color: rgb(47, 9, 65);
+  padding: 50px 55px 20px 30px;
+}
+.title-contact {
+  font-family: agbalumo;
+  color: rgb(27, 235, 27);
+}
+form {
+  border: 2px solid tomato;
+  border-radius: 10px;
+  background-color: rgb(25, 0, 255);
+  padding: 30px 30px;
+}
+.img-sosmed {
+  padding-left: 10px;
+}
+@media (max-width: 400px) {
+}
+/* FOOTER */
+footer {
+  background-color: aqua;
+  text-align: center;
+}
