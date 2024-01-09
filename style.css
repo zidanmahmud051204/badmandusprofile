@@ -24,7 +24,7 @@ nav a:hover {
   background-size: cover;
   background-position: center;
   padding: 130px 55px 0px 55px;
-  height: 100vh;
+  height: 100%;
 }
 #home img {
   width: 300px;
@@ -48,7 +48,8 @@ nav a:hover {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    padding: 75px 55px 0px 55px;
+    padding: 75px 55px 50px 55px;
+    padding-bottom: 30px;
     height: 100vh;
   }
   #home img {
@@ -56,7 +57,7 @@ nav a:hover {
     border: 5px solid white;
   }
   .home-h1 {
-    font-size: 30px;
+    font-size: 35px;
     font-family: Dancing Script;
   }
   .home-h3 {
@@ -64,7 +65,7 @@ nav a:hover {
     font-family: Mooli;
   }
   .home-p {
-    font-size: 17px;
+    font-size: 20px;
     font-family: Sklikscreen;
   }
 }
@@ -155,6 +156,9 @@ form {
 }
 .img-sosmed {
   padding-left: 10px;
+}
+label {
+  color: white;
 }
 @media (max-width: 400px) {
 }
