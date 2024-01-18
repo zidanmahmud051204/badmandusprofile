@@ -4,7 +4,7 @@ body {
 }
 /* NAVBAR PAGE */
 nav {
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(209, 92, 255, 0.644);
   backdrop-filter: blur(2px);
 }
 .title-navbar {
@@ -42,7 +42,7 @@ nav a:hover {
   font-size: 35px;
   font-family: Sklikscreen;
 }
-@media (max-width: 400px) {
+@media (max-width: 500px) {
   #home {
     background-image: url(img/HD-wallpaper-lines-stripes-neon-lights-purple-background.jpg);
     background-repeat: no-repeat;
@@ -65,7 +65,7 @@ nav a:hover {
     font-family: Mooli;
   }
   .home-p {
-    font-size: 20px;
+    font-size: 18px;
     font-family: Sklikscreen;
   }
 }
